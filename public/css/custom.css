@@ -1,0 +1,229 @@
+
+.btn.btn-outline.green {
+    border-color: #32c5d2;
+    color: #32c5d2;
+	margin :5px 2px!important;
+	border-radius: 30px !important;
+}
+
+.page-bar{
+	padding: 5px 10px 5px 10px!important;
+	margin-bottom: 0px!important;	
+}
+
+/**
+ * page heading 
+ * banner
+ */
+
+.heading-banner{
+	height: 90px;
+	width: 100%;
+	background-size : 100%;
+	background-image: url('/img/slide-medical-2.jpg');
+	background-repeat: no-repeat;
+	background-position : 40% 20%;
+}
+
+.heading-banner>h3{
+	margin: 15px 5px !important;
+    background-color: #14B9D6;
+    display: inline-block;
+    padding: 5px 40px;
+    border-radius: 50px;
+    color: white;
+}
+
+.login .content{
+    background-color: white;
+    padding: 50px !important;
+}
+.logo-img{
+	margin: 0px;
+	padding-top: 100px;
+	text-align: center;
+}
+.form-content{
+	opacity: 0.9;
+    border-radius: 4px !important;
+    background-color: white; 
+    padding:20px !important;
+}
+.login .content .form-control {
+    background-color: #ffffff !important;
+    border: 1px solid #6ba3c8;
+    height: 43px;
+    color: #000000;
+}
+.login .btn, .login .btn-default{
+	color: white !important;
+}
+.login .form-title {
+	color:#636f85;
+}
+.login .form-subtitle{
+	color: #4f86ac;
+
+}
+.login a {
+    color: #4f86ac!important;
+}
+.login .content .check {
+    color: #245a79!important;
+}
+@media (max-width: 425px){
+	.bg-image{
+		background-size: contain;
+	}
+}
+@media (max-width: 481px){
+	.login .content{
+		width: 98%;
+	}
+}
+.owl-carousel .items{
+    height:370px;
+    width:100%;
+}
+.owl-carousel .items img{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.search_form{
+	background-color: #fff; 
+	opacity: 0.85;
+	margin-top: -130px;
+	margin-bottom: 30px;
+	z-index: 5;
+	display:block;
+	position:relative;
+	border-radius: 5px !important;
+	-webkit-box-shadow: 0px 0px 58px -8px rgba(0,0,0,0.21);
+	-moz-box-shadow: 0px 0px 58px -8px rgba(0,0,0,0.21);
+	box-shadow: 0px 0px 58px -8px rgba(0,0,0,0.21);
+}
+.search_label{
+	color: black;
+}
+.datepicker_input{
+	background-color: #fff !important;
+	height: 46px;
+}
+.datepicker_btn, .inc-dec-btn{
+	padding: 12px 15px ;
+}
+.home_search{
+    padding: 12px 55px;
+    margin-left: 25px;
+    font-size: 16px;
+}
+.search_btn{
+    background-color: #00acec;
+    color: white;
+    border-radius: 2px !important;
+    font-size: 15px
+}
+.search_btn:hover{
+	color: white !important;
+	background-color: #38c2f5;
+	-webkit-box-shadow: 0px 0px 58px -8px rgba(0,0,0,0.21);
+	-moz-box-shadow: 0px 0px 58px -8px rgba(0,0,0,0.21);
+	box-shadow: 0px 0px 58px -8px rgba(0,0,0,0.21);
+
+}
+.form-group .row{
+	margin-top: 10px;
+}
+.date-picker-label, .adult-no-label, .class-label{
+	font-size: 18px;
+	padding-top: 10px;
+}
+.input-text-number, .input-number{
+	height: 46px;
+}
+.search-no{
+	height: 34px;
+}
+.inc{
+	left: -16px !important;
+    top: -16px!important;
+    height: 50px!important;
+    width: 50px!important;
+}
+.check{
+	background: #00acec !important;
+}
+.form-padding{
+	padding: 20px;
+}
+.search-date{
+	width: 100% !important;
+}
+@media (max-width: 992px){
+	.logo-size{
+		max-width: 60%;
+	}
+}
+@media (max-width: 768px){
+	.input-resp {
+	    width: 100%!important;
+	}
+}
+#loader{
+	background-image: url('../img/page_loading.gif');
+	background-size: cover;
+
+}
+.book-btn{
+	background-color: #18bb11;
+    color: white;
+    border-radius: 2px !important;
+    font-size: 15px;
+    width: 100%;
+}
+.book-btn:hover{
+	color: white !important;
+	background-color: #2cde25;
+}
+.back-btn{
+	background-color: #d30000;
+    color: white;
+    border-radius: 2px !important;
+    font-size: 15px;
+    width: 10%
+}
+.back-btn:hover{
+	color: white !important;
+	background-color: #f86b6b;
+}
+.flight-detail{
+	border:1px solid black;
+	border-radius: 5px !important;
+	background: white;
+}
+.flight-time{
+	font-size:28px; margin-top: 5px;
+}
+.flight-time-padding{
+	padding-left: 0px;
+}
+.time-font{
+	font-size: 10px;
+}
+.icon-margin{
+	margin-top: 7px;
+}
+.flight-charge{
+	text-align: center;
+}
+.hr-black{
+	border-top: 1px solid #000;
+}
+.book-btn-info{
+	width:100px;
+	margin-left: 40px;
+}
+.input-small{
+	width: 190px !important;
+}
